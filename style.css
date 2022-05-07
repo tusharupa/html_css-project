@@ -67,6 +67,7 @@ a{
     padding: 8px;
     margin-left: 8px;
     width: 100px;
+    border-radius: 8px;
 }
 .container2{
     display: flex;
@@ -84,6 +85,7 @@ a{
 .container2 .cards{
     display: flex;
     justify-content: center;
+    gap: 30px;
 }
 .card1{
     width: 200px;
@@ -95,6 +97,7 @@ a{
     width: 190px;
     height: 100px;
     background-color: blue;
+    border-radius: 10px;
 }
 .container3{
     display: flex;
@@ -124,6 +127,7 @@ a{
     margin-right: 100px;
      margin-top: 10px;
     align-items: center;
+    gap: 350px;
    
     }
     .footer .info{
@@ -148,8 +152,8 @@ padding: 8px;
 font-size: 20px;
 background-color: rgba(69, 141, 236, 0.753);
 color: white;
-margin-left: 400px;
 }
+
 .last_box{
     background-color: rgb(9, 28, 44);
     display: flex;
